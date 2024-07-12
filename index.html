@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Alt Room homepage</title>
+</head>
+<body>
+    <main class="grid-container">
+        <header id="header" class="header">
+            <button id="menu-button" class="header__button">
+                <img id="hamburger-img" src="./assets/images/icon-hamburger.svg" alt="">
+                <img id="close-img" class="header__img--no-display" src="./assets/images/icon-close.svg" alt="">
+            </button>
+            <div id="header-logo-container" class="header__logo-container">
+                <img src="./assets/images/logo.svg" alt="">
+            </div>
+            <nav id="header-nav" class="header__nav-menu">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a class="header__nav-link" href="">home</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">shop</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">about</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid-container__grid-item-1">
+            <div  id='hero-container' class="grid-container__image-container grid-container__image-container--overflow-hidden">
+                <picture>
+                    <source srcset="./assets/images/mobile-image-hero-1.jpg" media="(max-width: 767px)">
+                    <img id="hero-image-1" class="grid-container__image grid-container__image--hero" src="./assets/images/desktop-image-hero-1.jpg" alt="">
+                </picture>
+                <picture>
+                    <source srcset="./assets/images/mobile-image-hero-2.jpg" media="(max-width: 767px)">
+                    <img id="hero-image-2" class="grid-container__image grid-container__image--hero grid-container__image--no-display" src="./assets/images/desktop-image-hero-2.jpg" alt="">
+                </picture>
+                <picture>
+                    <source srcset="./assets/images/mobile-image-hero-3.jpg" media="(max-width: 767px)">
+                    <img id="hero-image-3" class="grid-container__image grid-container__image--hero grid-container__image--no-display" src="./assets/images/desktop-image-hero-3.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="grid-container__grid-item-2">
+            <div class="grid-container__text-container grid-container__text-container--large-padding">
+                <h1 id="heading" class="grid-container__heading-large">Discover innovative ways to decorate</h1>
+                <p id="paragraph" class="grid-container__paragraph">We provide unmatched quality, comfort, and style for property
+                    owners CICO55 the country. Our experts combine form and
+                    function in bringing your vision to life. Create? a room in your
+                    own style with our coHection and make your property a
+                    reflection of you and what you love.</p>
+                <div class="grid-container__subtitle-container">
+                    <a href="">
+                        <span class="grid-container__subtitle">SHOP NOW </span>
+                        <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="currentColor" fill-rule="nonzero"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container__grid-item-3">
+
+            <div class="grid-container__button-container">
+                
+                <button id="left-button" class="grid-container__button grid-container__button">
+                    <img src="./assets/images/icon-angle-left.svg" alt="">
+                </button>
+                <button id="right-button" class="grid-container__button grid-container__button">
+                    <img src="./assets/images/icon-angle-right.svg" alt="">
+                </button>
+
+            </div>
+
+        </div>
+        <div class="grid-container__grid-item-4">
+            <div class="grid-container__image-container">
+                <img class="grid-container__image" src="./assets/images/image-about-dark.jpg" alt="">
+            </div>
+        </div>
+        <div class="grid-container__grid-item-5">
+            <div class="grid-container__text-container grid-container__text-container--small-padding">
+                <h2 class="grid-container__heading-small">ABOUT OUR FURNITURE</h2>
+                <p class="grid-container__paragraph">Our multifunctional collection blends design and function to suit your
+                    individual taste. Make each room unique, or pick a cohesive theme that best
+                    express your interests and what inspires you. Find the furniture pieces you
+                    need, from traditional to contemporary styles or anythng in between.
+                    Product specialists are avoidable to help you create your dream space.</p>
+            </div>
+        </div>
+        <div class="grid-container__grid-item-6">
+            <div class="grid-container__image-container">
+                <img class="grid-container__image" src="./assets/images/image-about-light.jpg" alt="">
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
